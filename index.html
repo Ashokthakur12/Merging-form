@@ -1,94 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Suman | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi, It's Suman</title>
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
+    }body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0d0d0d;
-      color: white;
-      display: flex;
-      height: 100vh;
-      overflow: hidden;
-    }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(255, 0, 79, 0.6);
+}
 
-    .left {
-      width: 50%;
-      background: radial-gradient(circle, rgba(255,0,79,0.9), #0d0d0d);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+.left {
+  flex: 1;
+  background: radial-gradient(circle at center, rgba(255,0,79,0.9), #0d0d0d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
 
-    .left img {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 0 30px rgba(255, 0, 79, 0.6);
-    }
+.left img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
+}
 
-    .right {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 40px;
-    }
+.right {
+  flex: 1;
+  padding: 40px;
+  text-align: left;
+}
 
-    .right h1 {
-      font-size: 48px;
-      color: #ff69b4;
-    }
+.right h1 {
+  font-size: 48px;
+  color: #ff69b4;
+}
 
-    .right h2 {
-      font-size: 28px;
-      color: #ffffff;
-      margin-top: 10px;
-    }
+.right h2 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-top: 10px;
+}
 
-    .right p {
-      margin-top: 20px;
-      color: #bbbbbb;
-      line-height: 1.5;
-    }
+.right p {
+  margin-top: 20px;
+  color: #cccccc;
+  line-height: 1.6;
+}
 
-    .button {
-      margin-top: 30px;
-      padding: 12px 24px;
-      background-color: #ff0055;
-      border: none;
-      color: white;
-      font-size: 16px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
+.button {
+  margin-top: 30px;
+  padding: 12px 28px;
+  font-size: 16px;
+  background-color: #ff0055;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
 
-    .button:hover {
-      background-color: #cc0044;
-    }
+.button:hover {
+  background-color: #cc0044;
+}
+
   </style>
 </head>
 <body>
-
-  <div class="left">
-    <img src="https://i.imgur.com/UWbD2K0.jpg" alt="Suman DP">
-  </div>
-
-  <div class="right">
-    <h1>Hi, It's Suman</h1>
-    <h2>I'm a Creative Designer</h2>
-    <p>I love designing modern and aesthetic interfaces. Let's build something beautiful together.</p>
-    <button class="button" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScoLWR0blz4Y8ceiz_jrBQjFAhlJwwx7S89XMoOQKawMc6FVg/viewform')">Open Form</button>
-  </div>
-
-</body>
-</html>
+  <div class="container">
+    <div class="left">
+      <img src="https://i.imgur.com/UWbD2K0.jpg" alt="Suman DP">
+    </div>
+    <div class="right">
+      <h1>Hi, It's Suman</h1>
+      <h2>I'm a Script Writer</h
